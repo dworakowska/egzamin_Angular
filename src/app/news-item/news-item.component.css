@@ -1,0 +1,20 @@
+.news-item {
+  margin: 5px;
+  padding: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.news-item img {
+  width: 100px;
+}
+
+.news-item button {
+  float: right;
+}
+
+.menu {
+  margin: 10px;
+}

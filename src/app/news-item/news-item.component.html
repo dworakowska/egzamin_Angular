@@ -1,0 +1,10 @@
+<div class="news-item">
+  <img [src]="imageUrl" />
+  <h2>{{ news.title }} [{{ news.value }}]</h2>
+  <span>{{ news.content }}</span>
+  <div class="menu">
+    <button (click)="remove()">usuń</button>
+    <button (click)="add()">+</button>
+    <button (click)="minus()">-</button>
+  </div>
+</div>

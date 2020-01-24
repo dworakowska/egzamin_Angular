@@ -1,0 +1,15 @@
+<div class="wrapper">
+  <app-news-editor></app-news-editor>
+</div>
+
+<div class="wrapper">
+  <ul>
+    <li *ngFor="let item of news; let i = index">
+      <div class="box"></div>
+      <app-news-item [news]="item" [index]="i"> </app-news-item>
+      <div class="box"></div>
+    </li>
+  </ul>
+
+  <button (click)="ngOnInit()" *ngIf="news?.length <= 0">zainicjuj</button>
+</div>

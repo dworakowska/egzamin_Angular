@@ -1,0 +1,23 @@
+ul {
+  padding-left: 0px;
+  list-style-type: none;
+  width: 800px;
+  font-family: serif;
+}
+
+.box {
+  min-height: 20px;
+  background-color: lavender;
+}
+
+li:nth-child(n) {
+  background-color: pink;
+}
+
+li:nth-child(2n) {
+  background-color: lightcyan;
+}
+
+.wrapper {
+  background-color: lemonchiffon;
+}
