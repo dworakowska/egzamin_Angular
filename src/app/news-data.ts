@@ -9,7 +9,3 @@ export class NewsData {
     this.content = content;
   }
 }
-
-//imageUrl
-//?
-//Czy tutaj tworzymy klase NewsData ktora importujemy potem we wszystkie inne miejsca??

@@ -1,4 +1,4 @@
-import { Component, Input, EventEmitter, Output } from "@angular/core";
+import { Component, Input, EventEmitter, Output, OnInit } from "@angular/core";
 import { NewsData } from "../news-data";
 import { NewsService } from "../news.service";
 
@@ -31,6 +31,8 @@ export class NewsItemComponent {
     this.newsService.removeItem(this.index);
     this.onRemove.emit();
   }
+
+  //3)pozycjonowanie jak na wykopie
 
   add() {
     this.newsService.updateItem(this.index, this.news.value + 1);

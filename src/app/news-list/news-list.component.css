@@ -10,6 +10,8 @@ ul {
   background-color: lavender;
 }
 
+/* 1)lista newsów, rozne kolory parzystych, nieparzystych */
+
 li:nth-child(n) {
   background-color: pink;
 }
